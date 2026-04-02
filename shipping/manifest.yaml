@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: sowmya142/shipping:v2
+        image: sowmya142/shipping:v1
         imagePullPolicy: Always
         envFrom:
         - configMapRef:

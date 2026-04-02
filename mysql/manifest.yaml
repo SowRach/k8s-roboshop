@@ -3,7 +3,6 @@ kind: ConfigMap
 metadata:
   name: mysql
   namespace: roboshop
-type: Opaque
 data:
   MYSQL_DATABASE: "cities"
 ---
